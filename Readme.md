@@ -42,8 +42,11 @@ Entrez dans le dossier frontend et exécutez :
 `npm install react-scripts --save`
 `npm install --save react-dom`
 `npm install express`
+`npm install nodemon`
 
 `npm install --save react-dom`
+
+
 # Exécution du serveur
 
 1 - Lancez le serveur :
@@ -53,3 +56,12 @@ Rendez-vous dans le dossier "backend" et exécutez :
 
 Rendez-vous dans le dossier "frontend" et exécutez :
 `nodemon`
+
+2 - (Optionnel) Si la commande `nodemon` n'est pas reconnue, veuillez suivre les étapes suivantes :
+
+Rendez-vous dans le dossier "backend" et exécutez :
+`node server.js`
+
+Rendez-vous dans le dossier "frontend" et exécutez :
+`npm start`
+
