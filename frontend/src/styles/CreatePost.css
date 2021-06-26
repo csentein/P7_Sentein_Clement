@@ -1,0 +1,68 @@
+.createpost_createpost {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px 2px #00000024;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+.createpost_first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 30px 0px 20px;
+
+}
+
+.createpost_second-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+
+.createpost_photo-profil {
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    margin-left: 8px;
+    object-fit: cover;
+}
+
+.createpost_textarea-createpost {
+    flex: 1;
+    font-size: 16px;
+    font-family: Helvetica;
+    min-height: 50px;
+    max-height: 180px;
+    padding: 6px 8px;
+}
+
+.createpost_textarea-createpost::placeholder {
+    font-style: italic;
+}
+
+.createpost_trigger {
+    cursor: pointer;
+    background: none;
+    font-style: italic;
+    color: grey;
+    font-family: Helvetica;
+    font-size: 16px;
+    border: none;
+}
+
+.createpost_svg-default {
+    height: 20px;
+    pointer-events: none;
+    margin-bottom: -2px;
+    margin-left: 4px;
+}
+
+.createpost_noselect:focus {
+    outline: 0;
+}

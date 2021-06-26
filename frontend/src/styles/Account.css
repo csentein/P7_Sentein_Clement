@@ -1,0 +1,106 @@
+.account_svg-default {
+    height: 16px;
+    pointer-events: none;
+    margin-bottom: -2px;
+    margin-left: 4px;
+}
+
+.account {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 140px 0px;
+}
+
+.account_imageprofil {
+    border-radius: 100px;
+    object-fit: cover;
+    height: 90px;
+    width: 90px;
+}
+
+.account_container {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 7px 2px #00000024;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 35px 0px;
+    border-radius: 8px;
+}
+
+.account_change-profil-picture-container {
+    margin: 14px 0px;
+}
+
+.account_change-profil-picture-a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.account_change-profil-informations-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #707070;
+
+}
+
+.account_change-profil-informations-input {
+    width: 300px;
+    height: 20px;
+    border-radius: 8px;
+    border: 1px solid #707070;
+    margin: 5px 10px;
+    padding-left: 6px;
+}
+
+.account_change-profil-informations-input:focus {
+    outline: 0;
+}
+
+.account_button {
+    width: 130px;
+    height: 40px;
+    background-color: #ff8e74;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 14px 0px 5px 0px;
+    transition-duration: 200ms;
+    padding: 8px 0px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.account_button:hover {
+    background-color: #ff5b35;
+}
+
+.account_delete-account-container {
+    color: #707070;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 100px;
+}
+
+.account_button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.account_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
